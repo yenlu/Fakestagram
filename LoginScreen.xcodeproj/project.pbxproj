@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682DB6F2235A6B1B00683A50 /* UsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682DB6F1235A6B1B00683A50 /* UsernameViewController.swift */; };
 		68B40D482351273100353985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B40D472351273100353985 /* AppDelegate.swift */; };
 		68B40D4A2351273100353985 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B40D492351273100353985 /* SceneDelegate.swift */; };
 		68B40D4C2351273100353985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B40D4B2351273100353985 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		682DB6F1235A6B1B00683A50 /* UsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameViewController.swift; sourceTree = "<group>"; };
 		68B40D442351273100353985 /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B40D472351273100353985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68B40D492351273100353985 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				68B40D472351273100353985 /* AppDelegate.swift */,
 				68B40D492351273100353985 /* SceneDelegate.swift */,
 				68B40D4B2351273100353985 /* ViewController.swift */,
+				682DB6F1235A6B1B00683A50 /* UsernameViewController.swift */,
 				68B40D4D2351273100353985 /* Main.storyboard */,
 				68B40D502351273300353985 /* Assets.xcassets */,
 				68B40D522351273300353985 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B40D4C2351273100353985 /* ViewController.swift in Sources */,
+				682DB6F2235A6B1B00683A50 /* UsernameViewController.swift in Sources */,
 				68B40D482351273100353985 /* AppDelegate.swift in Sources */,
 				68B40D4A2351273100353985 /* SceneDelegate.swift in Sources */,
 			);
