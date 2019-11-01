@@ -15,7 +15,15 @@ class ViewController: UIViewController {
     let passWordField = UITextField()
     let loginButton = UIButton(type: .system)
 
-
+//    var logo: UIImageView
+//    init() {
+//        logo = UIImageView
+//    }
+//
+//    required init?(coder: NSCoder) {
+//        fatalError("init(coder:) has not been implemented")
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //add logo
@@ -130,7 +138,9 @@ class ViewController: UIViewController {
     
     @objc
     func loginButtonPressed() {
-        print("Button Pressed")
+        let feedViewController = FeedViewController()
+        self.navigationController?.pushViewController(feedViewController, animated: true)
+//        print("Button Pressed")
         
         //optional unwrapping
         //lets can never be null because they are constants
@@ -138,20 +148,20 @@ class ViewController: UIViewController {
         
         //if username field is not empty, username is whatever is in the username text field
         //if password field is not empty, password is whatever is in the password text field
-        if let username = userNameField.text , //, replaces &&
-        let password = passWordField.text {
-            if (!username.isEmpty && !password.isEmpty) {
-                print(username)
-                
-                //create new instance and pass it
-                let usernameViewController = UsernameViewController(username: username)
-                
-                self.navigationController?.pushViewController(usernameViewController, animated: true)
-                
-            } else {
-                print("Not Entered")
-            }
-        }
+//        if let username = userNameField.text , //, replaces &&
+//        let password = passWordField.text {
+//            if (!username.isEmpty && !password.isEmpty) {
+//                print(username)
+//
+//                //create new instance and pass it
+//                let usernameViewController = FeedViewController(username: username)
+//
+//                self.navigationController?.pushViewController(usernameViewController, animated: true)
+//
+//            } else {
+//                print("Not Entered")
+//            }
+//        }
     }
     
 //    func addLabel() {
