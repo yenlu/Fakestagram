@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		682DB6F2235A6B1B00683A50 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682DB6F1235A6B1B00683A50 /* FeedViewController.swift */; };
+		684D80E12376287A00AF5FAF /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D80E02376287A00AF5FAF /* PostTableViewCell.swift */; };
 		68B40D482351273100353985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B40D472351273100353985 /* AppDelegate.swift */; };
 		68B40D4A2351273100353985 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B40D492351273100353985 /* SceneDelegate.swift */; };
 		68B40D4C2351273100353985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B40D4B2351273100353985 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		682DB6F1235A6B1B00683A50 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		684D80E02376287A00AF5FAF /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		68B40D442351273100353985 /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B40D472351273100353985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68B40D492351273100353985 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				68B40D502351273300353985 /* Assets.xcassets */,
 				68B40D522351273300353985 /* LaunchScreen.storyboard */,
 				68B40D552351273300353985 /* Info.plist */,
+				684D80E02376287A00AF5FAF /* PostTableViewCell.swift */,
 			);
 			path = LoginScreen;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				68B40D4C2351273100353985 /* ViewController.swift in Sources */,
 				682DB6F2235A6B1B00683A50 /* FeedViewController.swift in Sources */,
+				684D80E12376287A00AF5FAF /* PostTableViewCell.swift in Sources */,
 				68B40D482351273100353985 /* AppDelegate.swift in Sources */,
 				68B40D4A2351273100353985 /* SceneDelegate.swift in Sources */,
 			);
